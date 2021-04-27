@@ -34,7 +34,7 @@ header {
   header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: var(--text-color);
+    color: var(--text-color);background-color: var(--header-bg);
     margin: 0;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
@@ -74,25 +74,24 @@ header {
 
   .hero {
     display: flex;
-    justify-content: center;
+    justify-content:flex-end;
     flex-wrap: wrap;
     align-items: flex-start;
     background-image: url(../images/nature.jpg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
     background-position: 80%;
   }
 
   .hero-sub-title {
-    width: 35%;
-    text-align: right;
+    width: 30%;
+    text-align: center;
     margin: 3.5%;
     color: var(--text-color);
-    font-size: 18px;
-    line-height: 1.2;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: var(--header-bg);
+    padding: 15px;
+    font-size: 20px;
   }
 
   .bio-info {
@@ -110,10 +109,15 @@ header {
 }
 
 .work-sub-title {
+    font-size: 60px;
+    font-weight: bold;
+    color: var(--header-bg);
     display: flex;
     flex-wrap: wrap;
     width: 20%;
-    align-items: center;
+    padding: 10px 50px;
+    align-items:flex-start;
+    justify-content: flex-end;
 }
 .work-sub-container {
     display: flex;
