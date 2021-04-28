@@ -22,6 +22,7 @@ body {
   text-align: right;
 }
 
+/* Header style */
 header {
     display: flex;
     justify-content: space-between;
@@ -191,12 +192,25 @@ header {
   background-color: var(--header-bg);
   color: var(--text-color);
   text-align: left;
+  padding-top: 10px;
+  line-height: 25px;
 }
 
+.work-item span p:first-child {
+  font-size: 22px;
+
+}
+
+.work-item span p p {
+  font-size: 15px;
+}
+
+
+
+/* Contact Info style Section */
 .contact-me {
   width: 80%;
   padding: 60px 35px;
-  align-items: center;
 }
 
 .contact-me a {
