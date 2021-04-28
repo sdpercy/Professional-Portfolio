@@ -125,7 +125,7 @@ header {
     width: 100%;
     text-align: right;
 }
-
+/* Work heading left side of page */
 .work-sub-title {
     font-size: 60px;
     font-weight: bold;
@@ -137,6 +137,8 @@ header {
     align-items:flex-start;
     justify-content: flex-end;
 }
+
+/* Work images right side container */
 .work-sub-container {
     display: flex;
     justify-content: space-between;
@@ -145,9 +147,9 @@ header {
 }
 
 .work-item {
-    display: inline-block;
+    display: flex;
     background-image: url('../images/ui-image-placeholder.jpg');
-    border: 4px solid var(--text-color);
+    border: 4px solid var(--header-bg);
     font-size: 12px;
     background-size: cover;
     background-position: center;
@@ -172,9 +174,10 @@ header {
 }
 
 .work-item span {
-    margin-bottom: 20%;
-    width: 100%;
-    color: var(--header-bg);
-    background-color: var(--text-color);
-    padding: 10px 5px;
-  }
+  margin-top: auto;
+  width: 20%;
+  height: 30%;
+  background-color: var(--header-bg);
+  color: var(--text-color);
+  text-align: left;
+}
