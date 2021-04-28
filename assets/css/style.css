@@ -113,7 +113,7 @@ header {
     font-weight: bold;
     color: var(--header-bg);
     width: 80%;
-    padding: 20px 10px 15px 0;
+    padding: 20px 10px 0 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -124,6 +124,7 @@ header {
     width: 80%;
     font-size: 20px;
     text-align: left;
+    margin-right: 30px;
   }
 
 
@@ -134,10 +135,13 @@ header {
     color: var(--header-bg);
     display: flex;
     flex-wrap: wrap;
-    width: 20%;
-    padding: 10px 50px;
+    margin: 16px 30px 5px;
+    width: 15%;
+    padding: 0 50px;
     align-items:flex-start;
     justify-content: flex-end;
+    border-right: 4px solid;
+    border-color:var(--header-bg);
 }
 
 /* Work images right side container */
@@ -145,7 +149,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 80%;
+    width: 78%;
 }
 
 .work-item {
