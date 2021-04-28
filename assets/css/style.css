@@ -15,6 +15,13 @@ body {
     background-color: var(--bg-color);
 }
 
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: right;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -119,15 +126,10 @@ header {
     text-align: left;
   }
 
-.main-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    text-align: right;
-}
+
 /* Work heading left side of page */
 .work-sub-title {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
     color: var(--header-bg);
     display: flex;
@@ -180,4 +182,24 @@ header {
   background-color: var(--header-bg);
   color: var(--text-color);
   text-align: left;
+}
+
+.contact-me {
+  width: 80%;
+  padding: 60px 35px;
+  align-items: center;
+}
+
+.contact-me a {
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--header-bg);
+}
+
+.contact-me ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
 }
