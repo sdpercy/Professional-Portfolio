@@ -1,134 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scott Percy | Portfolio Page</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Scott Percy | Portfolio Page</title>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <!-- Navigation -->
+        <header>
+            <div class="navbar">
+                <h1>
+                    <a href="/">Scott Percy</a>
+                </h1>
+            </div> 
+            <nav> <!-- Unordered list element -->
+                <ul>
+                    <li>
+                        <a href = "#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href = "#work">Work</a>
+                    </li>
+                    <li>
+                        <a href = "#contact-me">Contact Info</a>
+                    </li>
+                    <li>
+                        <a href = "#resume">Resume</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-    <link rel="stylesheet" href="./assets/css/style.css" />
+        <!-- Hero/Jumbotron -->
+        <section class="hero">
+            <div class ="hero-sub-title">
+                <h2>
+                    Developing the future today!
+                </h2>
 
-</head>
-<body>
-    <!-- Navigation -->
-    <header>
-        <div class="navbar">
-            <h1>
-                <a href="/">Scott Percy</a>
-            </h1>
-        </div> 
-        <nav> <!-- Unordered list element -->
-            <ul>
-                <li>
-                    <a href = "#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href = "#work">Work</a>
-                </li>
-                <li>
-                    <a href = "#contact-me">Contact Info</a>
-                </li>
-                <li>
-                    <a href = "#resume">Resume</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+            </div>
+        </section>
+        <!-- End of Jumbotron -->
 
-    <!-- Hero/Jumbotron -->
-    <section class="hero">
-        <div class ="hero-sub-title">
-            <h2>
-                Developing the future today!
-            </h2>
-
-        </div>
-    </section>
-    <!-- End of Jumbotron -->
-
-    <!-- Start of About section -->
-    <section id="about-me" class ="main-container">
-        <div class="work-sub-title">
-            <p>About Me</p>
-        </div>
+        <!-- Start of About section -->
+        <section id="about-me" class ="main-container">
+            <div class="work-sub-title">
+                <p>About Me</p>
+            </div>
         
-        <div class ="about-container">
-            <div>
-                <img src = "./assets/images/profile_pic.jpg" alt="" width = "200" height="260"/>
-            </div>  
-            <div class ="bio-info">
-            <p>
-                butcher selfies chambray shabby chic gentrify readymade yr Echo Park 
-                XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably 
-                haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future 
-                Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters 
-                flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
-            </p>
+            <div class ="about-container">
+                <div>
+                    <img src = "./assets/images/profile_pic.jpg" alt="" width = "200" height="260"/>
+                </div>  
+                <div class ="bio-info">
+                    <p>
+                    butcher selfies chambray shabby chic gentrify readymade yr Echo Park 
+                    XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably 
+                    haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future 
+                    Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters 
+                    flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
+                    </p>
+                </div>
+            </div>    
+        </section>
+
+        <!-- Start of Work section -->
+        <section id="work" class="main-container">
+            <div class="work-sub-title">
+                <p>Work</p>
+            </div> 
+            <div class="work-sub-container" >
+                <div class="work-item" style="cursor:pointer;" onClick="window.open('http://sdpercy.github.io/run-buddy/', '_blank')">
+                    <span><h2>Title 1</h2>
+                        <p>HTML and Github</p>
+                    </span>
+                </div>
+
+                <div class="work-item">
+                    <span><h2>Title 2</h2>
+                        <p>placeholder</p>
+                    </span>
+                </div>
+
+                <div class="work-item">
+                    <span><h2>Title 3</h2>
+                        <p>placeholder</p>
+                    </span>
+                </div>
+
+                <div class="work-item">
+                    <span><h2>Title 4</h2>
+                        <p>placeholder</p>
+                    </span>
+                </div>
+
+                <div class="work-item">
+                    <span><h2>Title 5</h2>
+                        <p>placeholder</p>
+                    </span>
+                </div>
             </div>
-        </div>    
-    </section>
-    <!-- Start of Work section -->
-    <section id="work" class="main-container">
-        <div class="work-sub-title">
-            <p>Work</p>
-        </div> 
-        <div class="work-sub-container" >
-            <div class="work-item" style="cursor:pointer;" onClick="window.open('http://sdpercy.github.io/run-buddy/', '_blank')">
-                <span><h2>Title 1</h2>
-                    <p>HTML and Github</p>
-                </span>
+        </section>
+
+        <!-- contact me section -->
+        <section id="contact-me" class="main-container">
+            <div class="work-sub-title">
+                <p>Contact Info</p>
             </div>
-
-            <div class="work-item">
-                <span><h2>Title 2</h2>
-                    <p>placeholder</p>
-                </span>
+            <div class="contact-me">
+                <ul>
+                    <li>
+                        <a href = "tel:7096971071">709-697-1071</a>
+                    </li>
+                    <li>
+                        <a href="mailto:scottpercy@hotmail.com">scottpercy@hotmail.com</a>
+                    </li>
+                    <li>
+                        <a href = "https://github.com/sdpercy" target="_blank">Github</a>
+                    </li>
+                    <li>
+                        <a href = "https://www.linkedin.com/in/scott-percy/" target="_blank">LinkedIn</a>
+                    </li>
+                </ul>
             </div>
-
-            <div class="work-item">
-                <span><h2>Title 3</h2>
-                    <p>placeholder</p>
-                </span>
-            </div>
-
-            <div class="work-item">
-                <span><h2>Title 4</h2>
-                    <p>placeholder</p>
-                </span>
-            </div>
-
-            <div class="work-item">
-                <span><h2>Title 5</h2>
-                    <p>placeholder</p>
-                </span>
-            </div>
-
-        </div>
-    </section>
-
-
-    <!-- Footer/contact me section -->
-    <section id="contact-me" class="main-container">
-        
-        <div class="work-sub-title">
-            <p>Contact Info</p>
-        </div>
-        <div class="contact-me">
-            <ul>
-                <li>
-                    <a href = "tel:7096971071">709-697-1071</a>
-                </li>
-                <li>
-                    <a href="mailto:scottpercy@hotmail.com">scottpercy@hotmail.com</a>
-                </li>
-                <li>
-                    <a href = "https://github.com/sdpercy" target="_blank">Github</a>
-                </li>
-                <li>
-                    <a href = "https://www.linkedin.com/in/scott-percy/" target="_blank">LinkedIn</a>
-                </li>
-            </ul>
-        </div>
-    </section>
-</body>
+        </section>
+    </body>
 </html>
