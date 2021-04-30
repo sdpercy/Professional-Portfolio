@@ -50,11 +50,13 @@ header {
 
   .navbar a {
     color: var(--header-bg);
+    text-decoration: none;
   }
   
   header a {
     text-decoration: none;
     color: var(--text-color);
+    text-decoration: underline;
   }
   
   header nav {
@@ -73,13 +75,12 @@ header {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
-  header nav ul li a:hover {
+header nav ul li a:hover {
     background: var(--text-color);
     color: var(--header-bg);
-    border-radius: 5px;
+    border-radius: 2px;
     text-shadow: none;
   }
 
