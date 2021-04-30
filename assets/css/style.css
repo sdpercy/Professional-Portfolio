@@ -131,7 +131,7 @@ header nav ul li a:hover {
 
 
 /* Work heading left side of page */
-.work-sub-title {
+.sub-title-container {
     font-size: 40px;
     font-weight: bold;
     color: var(--header-bg);
