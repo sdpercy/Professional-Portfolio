@@ -14,7 +14,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     background-color: var(--bg-color);
 }
-
+/* Main container for application */
 .main-container {
   display: flex;
   flex-wrap: wrap;
@@ -102,9 +102,7 @@ header nav ul li a:hover {
   /*---------About section---------------- */
 
   .about-container {
-    font-size: 60px;
-    font-weight: bold;
-    color: var(--header-bg);
+    
     width: 80%;
     padding: 20px 10px 0 0;
     display: flex;
@@ -114,8 +112,10 @@ header nav ul li a:hover {
 
     .bio-info {
       line-height: 1.3;
+      color: var(--header-bg);
       width: 80%;
-      font-size: 1.5vw;
+      font-size: 1.1vw;
+      font-weight: bold;
       text-align: left;
       margin-right: 30px;
     }
@@ -215,6 +215,7 @@ header nav ul li a:hover {
   align-items: center;
   list-style: none;
 }
+
 /* ---------End of Contact Info style Section-------- */
 
 /*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
@@ -230,6 +231,7 @@ header nav ul li a:hover {
     font-size: 30px;
   }
   
+
   .sub-title-container {
     font-size: 34px;
     padding: 0 10px;
