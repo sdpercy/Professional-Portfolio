@@ -1,4 +1,4 @@
-# Professional-Portfolio
+# Professional Portfolio Page for Scott Percy
 
 ## Description
 The portfolio page consists of three main sections
