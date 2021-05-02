@@ -21,7 +21,7 @@ https://sdpercy.github.io/my-professional-portfolio/
 ![image](https://user-images.githubusercontent.com/78440638/116813232-6c131500-ab2d-11eb-96c1-66c90f6433fb.png)
 
 
-## Acceptance Criteria
+## Acceptance Criteria for Project
 
 Here is the criteria for the website.
 ```
