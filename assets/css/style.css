@@ -166,7 +166,16 @@ header nav ul li a:hover {
     margin-top: 10px;
     margin-right: 30px;
     margin-bottom: 10px;
-    background-image: url('../images/mainpage.JPG');
+    background-image: url('../images/wasteaway.JPG');
+}
+
+.work-item:nth-child(2) {
+  flex-wrap: wrap;
+    width: 47%;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+  background-image: url('../images/mainpage.JPG');
 }
 
 .work-item:not(:first-child) {
@@ -179,8 +188,8 @@ header nav ul li a:hover {
 
 .work-item span {
   margin-top: auto;
-  width: 20%;
-  height: 30%;
+  width: auto;
+  height: auto;
   background-color: var(--header-bg);
   color: var(--text-color);
   text-align: left;
